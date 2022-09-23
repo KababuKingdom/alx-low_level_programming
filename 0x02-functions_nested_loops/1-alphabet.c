@@ -1,19 +1,24 @@
-#include"main.h"
-#include <stdio.h>
+#include “main.h”
 
 /**
-* _isupper - function to check if
-* character is uppercase
+* print_alphabet – function to print abc
 *
-* @c: checks input of function
-*
-* Return: returns 1 if `c` is uppercase
-* otherwise always 0 (Success)
+* Return: 0
 */
+Void print_alphabet(void)
 
-int _isupper(int c)
 {
-if (c >= 65 && c <= 90)
-return (1);
-return (0);
+
+Char c;
+
+For (c = ‘a’; c <= ‘z’; c++)
+
+{
+
+_putchar©;
+
+}
+
+_putchar(‘\n’);
+
 }
