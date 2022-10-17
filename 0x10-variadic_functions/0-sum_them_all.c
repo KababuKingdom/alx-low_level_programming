@@ -7,7 +7,7 @@
  * Return: sum of all parameters
  */
  int sum_them_all(const unsigned int n, ...)
- }
+ {
  	unsigned int sum = 0, i;
  	va_list arglist;
  	
