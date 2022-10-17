@@ -16,7 +16,7 @@
  	
  	va_start(arglist, n);
  	
- 	for (i = 0; < n; i++)
+ 	for (i = 0; i < n; i++)
  	{
  		sum += va_arg(arglist, int);
  	}
