@@ -1,9 +1,7 @@
-0x10. C - Variadic functions Tasks
-
-0. Beauty is variable, ugliness is constant
-
-1. To be is to be the value of a variable
-
-2. One woman's constant is another woman's variable
-
-3. To be is a to be the value of a variable
+# 0x10. C - Variadic functions Tasks
+| TASKS | FUNCTIION |
+| --- | --- |
+| 0. Beauty is variable, ugliness is constant | a function that returns the sum of all its parameters. |
+| 1. To be is to be the value of a variable | a function that prints numbers, followed by a new line. |
+| 2. One woman's constant is another woman's variable | a function that prints strings, followed by a new line. |
+| 3. To be is a to be the value of a variable | a function that prints anything. |
