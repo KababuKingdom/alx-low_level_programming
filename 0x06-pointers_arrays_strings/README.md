@@ -11,6 +11,6 @@
 | 7. Mozart composed his music not for the elite, but for everybody | Wrote a function that encodes a string into 1337. |
 | 8. rot13 | Wrote a function that encodes a string using rot13. |
 | 9. Numbers have life; they're not just symbols on paper | Wrote a function that prints an integer. |
-| 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work Added one line to this code, so that the program prints a[2] = 98, followed by a new line. |
+| 10. A dream doesn't become reality through magic; it takes sweat, determination and hard work | Added one line to this code, so that the program prints a[2] = 98, followed by a new line. |
 | 11. It is the addition of strangeness to beauty that constitutes the romantic character in art | Wrote a function that adds two numbers. |
 | 12. Noise is a buffer, more effective than cubicles or booth walls | Wrote a function that prints a buffer. |
