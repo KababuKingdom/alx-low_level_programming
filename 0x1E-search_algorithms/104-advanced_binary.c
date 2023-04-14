@@ -26,11 +26,11 @@ int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
 	printf("%d\n", array[ab]);
 
 	ab = left + (right - left) / 2;
-	if (array[i] == value && (ab == left || array[i - 1] != value))
+	if (array[ab] == value && (ab == left || array[ab- 1] != value))
 		return (ab);
 	if (array[ab] >= value)
-		return (advanced_binary_recursive(array, left, i, value));
-	return (advanced_binary_recursive(array, i + 1, right, value));
+		return (advanced_binary_recursive(array, left, ab, value));
+	return (advanced_binary_recursive(array, ab + 1, right, value));
 }
 
 /**

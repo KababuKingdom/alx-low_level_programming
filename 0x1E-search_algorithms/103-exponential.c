@@ -30,7 +30,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 		ab = left + (right - left) / 2;
 		if (array[ab] == value)
 			return (ab);
-		if (array[i] > value)
+		if (array[ab] > value)
 			right = ab - 1;
 		else
 			left = ab + 1;
@@ -60,7 +60,7 @@ int exponential_search(int *array, size_t size, int value)
 
 	if (array[0] != value)
 	{
-		for (ab = 1; ab < size && array[i] <= value; ab = ab * 2)
+		for (ab = 1; ab < size && array[ab] <= value; ab = ab * 2)
 			printf("Value checked array[%ld] = [%d]\n", ab, array[ab]);
 	}
 
